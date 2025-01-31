@@ -1,0 +1,313 @@
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url(download\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex; /* Gunakan flex untuk mengatur tata letak */
+    gap: 15px; /* Tambahkan jarak antar elemen navigasi */
+}
+.navbar img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.navbar h1{
+    border-radius: 100%;
+    font-size: 20px;
+    font-family: 'cursive';
+    color: #D10420;
+}
+.navbar ul {
+    /* position: absolute;
+    left: 10px;
+    top: 50px; */
+    list-style: none; /* Hilangkan bullet dari list *
+    display: flex; /* Tampilkan menu secara horizontal */
+    gap: 10px; /* Beri jarak antar elemen */
+}
+
+.navbar ul li {
+    margin-right: 15px;
+    display: inline-block; /* Pastikan setiap item dalam list ditampilkan secara horizontal */
+}
+
+.navbar ul li a {
+    text-decoration: none; /* Hilangkan garis bawah pada tautan */
+    color: #D10420; /* Ganti warna teks */
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.navbar ul li a:hover {
+    text-decoration: none;
+    color: #6F0E24; /* Tambahkan efek hover */
+}
+
+.content{
+    position: absolute; /*posisi ke pinggir*/
+    margin-top: 47%; /*jarak atas*/
+    margin-left: 10%; /*jarak kiri*/
+    /* text-align: left; */
+}
+.content .btn{
+    color: #D10420;
+    font-size: 20px;
+    background-color: #FEAFB9;
+    border: #FD8192; /*tapi button yang warna hitam*/
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 30px;
+    
+}
+
+.content .btn:hover{
+    background-color: #FD8192;
+}
+
+.content h2{
+    font-size: 55px;
+    margin-bottom: 25px; /*jarak bawah*/
+    
+}
+
+.retagle{
+    width: 100%;
+    height: 30px;
+    background-color: #FD8192;
+}
+
+.retagle h5{
+    font-size: 15px;
+    text-align: center; 
+    padding-top: 5px; /*memberi ruang di atas teks*/
+    margin: 0;
+    color: #6F0E24;
+}
+
+.favorit{
+    font-size: 18px;
+    text-align: center;
+    color: #FD8192;
+}
+
+.GambarFav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.GambarFav .Fav1{
+    width: 190px;
+    height: auto;
+}
+
+.GambarFav .Fav2{
+    width: 180px;
+    height: auto;
+    padding-left: 25px;
+}
+
+.GambarFav .Fav3{
+    width: 180px;
+    height: auto;
+    padding-left: 25px;
+}
+
+.View{
+    width: 13%;
+    height: 25px;
+    background-color: #FD8192;
+    align-items: center;
+    border-radius: 15px;
+    margin-left: 45%;
+    
+}
+
+.View h5{
+    font-size: 15px;
+    text-align: center;
+    padding-top: 5px;
+    color: #6F0E24;
+}
+
+.viewFav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.viewFav .view1{
+    width: 180px;
+    height: auto;
+    padding-right: 30px;
+}
+
+.viewFav .view2{
+    width: 145px;
+    height: auto;
+    padding-right: 30px;
+}
+
+.viewFav .view3{
+    width: 180px;
+    height: auto;
+    padding-right: 20px;
+}
+
+.viewFav .view4{
+    width: 145px;
+    height: auto;
+}
+
+.saying{
+    width: 100%;
+    height: 50%;
+    background-color: #FD8192;
+}
+
+.saying h2{
+    align-items: center;
+    text-align: center;
+    color: #D10420                                                                                                                                                                                                                                                                                                                                                                                                                                                  ;
+}
+
+.saying p{
+    text-align: center;
+    color: #6F0E24;
+}
+
+
+.about h2{
+    text-align: center;
+    color: #D10420;
+    font-size: 30px;
+    padding-top: -10px;
+}
+
+.about p{
+    padding-left: 30%;
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.ganbarabout{
+    margin-left: 10px;
+}
+
+.about .ganbarabout .about1{
+    width: 150px;
+    border-radius: 10px;
+    margin-top: -400px;
+    display: flex;
+}
+
+.ganbarabout .about4{
+    width: 150px;
+    border-radius: 10px;
+    margin-left: 180px;
+    margin-top: -150px;
+    display: flex;
+}
+.ganbarabout .about2{
+    width: 150px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.ganbarabout .about3{
+    width: 150px;
+    margin-left: 180px;
+    border-radius: 10px;
+    margin-top: -200px;
+    display: flex;
+}
+
+.contack{
+    width: 100%;
+    min-height: 400px;
+    background-color: #FD8192;
+    position: relative;
+    display: inline-block;
+}
+.contack .logo{
+    width: 25%;
+    filter: blur(5px);
+    margin-left: 5%;
+}
+
+.text{
+    position: absolute;
+    top: 35%;
+    left: 13%;
+    /* transform: translate(-50%, -50%); */
+    color: #D10420;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+.contack .instagram{
+    width: 50px;
+    display: flex;
+    margin-left: 50%;
+    margin-top: -18%;
+    font-weight: bold;
+}
+
+.contack .whatsapp{
+    width: 50px;
+    display: flex;
+    margin-left: 50%;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.contack .tiktok{
+    width: 50px;
+    display: flex;
+    margin-left: 50%;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.teksins{
+    position: absolute;
+    left: 55%;
+    top: 130px;
+    color: #D10420;
+}
+
+.tekswa{
+    position: absolute;
+    left: 55%;
+    top: 50%;
+    color: #D10420;
+}
+
+.tekstik{
+    position: absolute;
+    left: 55%;
+    top: 68%;
+    color: #D10420;
+
+}
+
+.desain{
+    width: 100%;
+    height: 20px;
+    background-color: #D10420;
+    margin-top: -44px;
+    text-align: center;
+}
